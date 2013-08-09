@@ -2,8 +2,9 @@
 
 /**
  * IP Ranges, die blockiert werden sollten
- * AS http://bgp.he.net/AS16265#_prefixes
- * DNS Ranges für Faule: http://houston.dnstools.com/?count=28&lookup=on&wwwhois=on&arin=on&portNum=80&target=85.17.0.0&submit=Go%21
+ * AS : http://bgp.he.net/AS16265#_prefixes
+ * DNS Ranges für Faule: 
+ * http://houston.dnstools.com/?count=1&lookup=on&wwwhois=on&arin=on&portNum=80&target=85.17.0.0&submit=Go%21
  */
 
 
