@@ -1,12 +1,15 @@
 <?php
 
 /**
- * IP Ranges, die blockiert werden sollten
- * AS : http://bgp.he.net/AS16265#_prefixes
- * DNS Ranges für Faule: 
- * http://houston.dnstools.com/?count=1&lookup=on&wwwhois=on&arin=on&portNum=80&target=85.17.0.0&submit=Go%21
+ * IP Ranges, von denen auszugehen ist, dass ein Bot Deinen Content wsucken will. 
+ * Die Liste erhebt keinen Anspruch auf Vollständigkeit
+ * 
+ * autonomes System (AS): 
+ * http://bgp.he.net/AS16265#_prefixes
+ * 
+ * IP Ranges für Faule:
+ * http://houston.dnstools.com/?count=28&lookup=on&wwwhois=on&arin=on&portNum=80&target=85.17.0.0&submit=Go%21
  */
-
 
 $arrHosterIpRanges = array( 
     # Hetzner
@@ -56,6 +59,33 @@ $arrHosterIpRanges = array(
     '217.160.0.0-217.160.15.255' => '1&1 DE',
     '217.160.80.0-217.160.87.255' => '1&1 DE',
     
+    # host europe
+    '5.35.224.0-5.35.224.255' => 'Host Europe',
+    '5.175.0.0-5.175.7.255' => 'Host Europe',
+    '37.61.192.0-37.61.223.255' => 'Host Europe',
+    '46.163.64.0-46.163.71.255' => 'Host Europe',
+    '80.237.128.0-80.237.128.127' => 'Host Europe',
+    '80.246.48.0-80.246.49.255' => 'Host Europe',
+    '83.169.0.0-83.169.7.255' => 'Host Europe',
+    '85.119.152.0-85.119.152.255' => 'Host Europe',
+    '87.230.0.0-87.230.15.255' => 'Host Europe',
+    '88.80.192.0-88.80.192.31' => 'Host Europe',
+    '91.250.64.0-91.250.67.255' => 'Host Europe',
+    '92.51.128.0-92.51.135.255' => 'Host Europe',
+    '93.92.144.0-93.92.145.255' => 'Host Europe',
+    '94.199.240.0-94.199.240.255' => 'Host Europe',
+    '176.28.0.0-176.28.0.15' => 'Host Europe',
+    '178.77.64.0-178.77.71.255' => 'Host Europe',
+    '195.225.104.0-195.225.107.255' => 'Host Europe',
+    
+    # strato
+    '81.169.128.0-81.169.143.255' => 'Strato',
+    '81.169.144.0-81.169.148.255' => 'Strato',
+    '81.169.157.0-81.169.188.255' => 'Strato',
+    '81.169.192.0-81.169.255.255' => 'Strato',
+    '85.214.0.0-85.214.3.255' => 'Strato',
+    '192.67.198.0-192.67.198.255' => 'Strato',
+    
     # sucker
     '65.19.128.0-65.19.191.255' => 'Feedly Cloud',
     '216.218.207.136-216.218.207.143' => 'DevHD HURRICANE-CE2128-851',
@@ -65,7 +95,6 @@ $arrHosterIpRanges = array(
     '142.4.96.0-142.4.127.255' => 'spmmer PEG TECH INC',
     '95.211.79.96-95.211.83.63' => 'solomono.ru',
     '12.1.41.224-12.1.41.255' => 'Kilpatrick Townsend & Stockton LLP',
-    
     
     # LEASEWEB
     '85.17.174.0-85.17.174.255' => 'LeaseWeb',
