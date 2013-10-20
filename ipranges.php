@@ -92,7 +92,7 @@ $arrHosterIpRanges = array(
     '216.218.128.0-216.218.255.255' => 'Feedly HURRICANE-1',
     '128.30.0.0-128.30.255.255' => 'W3C Validator',
     '8.8.204.0-8.8.204.255' => 'moreover.com',
-    '142.4.96.0-142.4.127.255' => 'spmmer PEG TECH INC',
+    '142.4.96.0-142.4.127.255' => 'spammer PEG TECH INC',
     '95.211.79.96-95.211.83.63' => 'solomono.ru',
     '12.1.41.224-12.1.41.255' => 'Kilpatrick Townsend & Stockton LLP',
     
