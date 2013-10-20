@@ -1,7 +1,7 @@
 <?php
 
 /**
- * IP Ranges, von denen auszugehen ist, dass ein Bot Deinen Content wsucken will. 
+ * IP Ranges, von denen auszugehen ist, dass ein Bot Deinen Content sucken will. 
  * Die Liste erhebt keinen Anspruch auf Vollständigkeit
  * 
  * autonomes System (AS): 
