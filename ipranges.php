@@ -190,6 +190,12 @@ $arrHosterIpRanges = array(
     '54.232.0.0-54.232.255.255' => 'amazon South America (Sao Paulo)',
     '54.233.0.0-54.233.63.255' => 'amazon South America (Sao Paulo)',
     '54.207.0.0-54.207.255.255' => 'amazon South America (Sao Paulo)',
-    '96.127.0.0-96.127.63.255' => 'amazon GovCloud', );
+    '96.127.0.0-96.127.63.255' => 'amazon GovCloud', 
+    
+    #rackspace
+    '78.136.33.208-78.136.33.215' => 'Rackspace',
+    '173.203.0.0-173.203.255.255' => 'Rackspace',
+    
+    );
 
 ?>
