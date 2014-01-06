@@ -201,6 +201,8 @@ $arrHosterIpRanges = array(
     '173.203.194.0-173.203.223.255' => 'Rackspace Cloud',
     '174.143.152.0-174.143.173.255' => 'Rackspace Cloud',
     
+    #encoding.com
+    '208.87.216.0-208.87.223.255' => 'Encoding.com'
     
     );
 
