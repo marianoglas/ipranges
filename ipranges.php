@@ -195,6 +195,12 @@ $arrHosterIpRanges = array(
     #rackspace
     '78.136.33.208-78.136.33.215' => 'Rackspace',
     '173.203.0.0-173.203.255.255' => 'Rackspace',
+    '37.188.112.0-37.188.115.255' => 'Rackspace UK',
+    '94.236.55.160-94.236.55.167' => 'Rackspace IP Space',
+    '204.232.192.0-204.232.207.255' => 'Rackspace Cloud',
+    '173.203.194.0-173.203.223.255' => 'Rackspace Cloud',
+    '174.143.152.0-174.143.173.255' => 'Rackspace Cloud',
+    
     
     );
 
