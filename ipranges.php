@@ -2,12 +2,14 @@
 
 /**
  * IP Ranges, von denen auszugehen ist, dass ein Bot Deinen Content sucken will. 
- * Die Liste erhebt keinen Anspruch auf Vollständigkeit
+ * Die Liste erhebt keinen Anspruch auf Vollstaendigkeit
+ * 
+ * Quelle: https://github.com/marianoglas/ipranges
  * 
  * autonomes System (AS): 
  * http://bgp.he.net/AS16265#_prefixes
  * 
- * IP Ranges für Faule:
+ * IP Ranges fuer Faule:
  * http://houston.dnstools.com/?count=28&lookup=on&wwwhois=on&arin=on&portNum=80&target=85.17.0.0&submit=Go%21
  */
 
