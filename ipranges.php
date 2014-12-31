@@ -228,6 +228,8 @@ $arrHosterIpRanges = array(
     #encoding.com
     '208.87.216.0-208.87.223.255' => 'Encoding.com'
     
+    #nordkorea
+    '175.45.176.1-175.45.179.254' => 'Nordkorea'
     );
 
 ?>
